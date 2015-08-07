@@ -20,6 +20,7 @@
 		<module>../v4java-web-utils</module>
 		<module>../workflow-service</module>
 		<module>../workflow-redis</module>
+		<module>../workflow-pojo</module>
 	</modules>
 	<profiles>
 		<profile>
@@ -231,6 +232,11 @@
  			 <artifactId>workflow-redis</artifactId>
  			 <version>0.0.1-SNAPSHOT</version>
   		</dependency>
+  					<dependency>
+				<groupId>com.v4java</groupId>
+				<artifactId>workflow-pojo</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
 			<!-- -->
 		</dependencies>
 	</dependencyManagement>
