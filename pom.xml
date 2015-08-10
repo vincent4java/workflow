@@ -1,11 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.v4java</groupId>
-  <artifactId>workflow</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  
-  <properties>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.v4java</groupId>
+	<artifactId>workflow</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<properties>
 		<!-- 各个依赖的版本 -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring.version>3.2.4.RELEASE</spring.version>
@@ -206,33 +207,34 @@
 				<version>1.6</version>
 			</dependency>
 			<!-- me -->
-			<dependency>
+
+<!-- 			<dependency>
 				<groupId>com.vincent</groupId>
 				<artifactId>v4java-web-utils</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.vincent</groupId>
+				<artifactId>v4java-exception</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency> -->
+
+			<dependency>
+				<groupId>com.vincent</groupId>
 				<artifactId>v4java-utils</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
-			<dependency>
-				<groupId>com.vincent</groupId>
-				<artifactId>v4java-exception</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
-			</dependency>
-			
 			<dependency>
 				<groupId>com.v4java</groupId>
 				<artifactId>workflow-service</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
-		<dependency>
-		  	<groupId>com.v4java</groupId>
- 			 <artifactId>workflow-redis</artifactId>
- 			 <version>0.0.1-SNAPSHOT</version>
-  		</dependency>
-  					<dependency>
+			<dependency>
+				<groupId>com.v4java</groupId>
+				<artifactId>workflow-redis</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
 				<groupId>com.v4java</groupId>
 				<artifactId>workflow-pojo</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
